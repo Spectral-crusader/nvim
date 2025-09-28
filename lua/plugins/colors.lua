@@ -4,10 +4,10 @@ end
 
 return {
     {
-	"ellisonleao/gruvbox.nvim",
+	"shaunsingh/nord.nvim",
 	config = function()
 	    vim.o.background = "dark"
-	    vim.cmd.colorscheme "gruvbox"
+	    vim.cmd.colorscheme "nord"
 	    enable_transparency()
 	end
     },
@@ -17,7 +17,7 @@ return {
 	    "nvim-tree/nvim-web-devicons",
 	},
 	opts = {
-	    theme = "gruvbox",
+	    theme = "nord",
 	}
     },
 }
